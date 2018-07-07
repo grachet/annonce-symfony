@@ -1,0 +1,59 @@
+
+{% extends "OCCoreBundle::layout.html.twig" %}
+
+{% block title %}
+    Page d'accueil - {{ parent() }}
+{% endblock %}
+
+    {% block stylesheets %}
+        {% stylesheets filter="cssrewrite, ?scssphp"
+            'bundles/ocplatform/css/main.css' %}
+            <link rel="stylesheet" href="{{ asset_url }}" type="text/css"/>
+        {% endstylesheets %}
+    {% endblock %}
+
+{% block body %}
+
+
+    <div class="view intro-2 hm-gradient">
+        <div style="height: 100vh" class="full-bg-img">
+            <div class="flex-center flex-column ">
+
+
+
+
+                <h1 class="animated fadeIn mb-4 text-white">Annonce</h1>
+
+                <h5 class="animated fadeIn mb-3 text-center text-white">Vous recherchez un emploi ou une personne
+                    qualifiée ? <br> Nous vous mettons en relation <i class="fa fa-check"></i></h5>
+
+                <a  href="{{ path('oc_platform_home') }}"  class="btn btn-primary wow fadeInLeft mb-5" data-wow-delay="0.3s">Voir nos annonces</a>
+
+                <div class="animated slideInUp text-center text-white mt-5">
+                    {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+                        <hr style="width: 100%; color: #FFFFFF">
+                        <p class="animated fadeIn mb-2">Connecté en tant que {{ app.user.username }}</p>
+
+
+                        <a href="{{ path('fos_user_security_logout') }}" class="btn btn-primary wow fadeInLeft" data-wow-delay="0.3s">Déconnexion</a>
+
+                    {% else %}
+
+                            <hr style="width: 100%; color: #FFFFFF">
+                            <p class="animated fadeIn mb-2">Faites partie du réseau et devenez recruteur</p>
+
+                            <a href="{{ path('fos_user_security_login') }}" class="btn btn-primary wow fadeInLeft" data-wow-delay="0.3s">Se connecter</a><br>
+                            <a href="{{ path('fos_user_registration_register') }}" class="btn btn-outline-white wow fadeInLeft" data-wow-delay="0.3s">Creer un compte</a>
+
+                    {% endif %}
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+{% endblock %}

@@ -1,0 +1,33 @@
+
+
+{% extends "OCPlatformBundle::layout.html.twig" %}
+
+{% block title %}
+  Modifier une annonce - {{ parent() }}
+{% endblock %}
+
+{% block ocplatform_body %}
+
+  <div class="alert alert-info mb-5 col-md-8" role="alert">
+
+    Attention : cette annonce sera ajoutée directement
+    sur la page d'accueil après validation du formulaire.
+
+    <p>
+      <a href="{{ path('oc_platform_view', {'id': advert.id}) }}" class="btn btn-light-blue mt-2">
+        <i class="fa fa-chevron-left mr-2"></i>
+        Retour à l'annonce
+      </a>
+    </p>
+
+  </div>
+
+
+  <div class="card p-5 mb-5">
+    <h3 >Modifier une annonce</h3>
+      {{ include("OCPlatformBundle:Advert:form.html.twig") }}
+
+  </div>
+
+
+{% endblock %}

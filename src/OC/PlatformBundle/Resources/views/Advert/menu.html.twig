@@ -1,0 +1,30 @@
+
+
+
+<ul class="list-group">
+  {% for advert in listAdverts %}
+    <li >
+      <a class=" text-muted " href="{{ path('oc_platform_view', {'id': advert.id}) }}">
+
+
+          {% if advert.title|length < 16 %}
+              {{ advert.title }}
+
+          {% else %}
+              {{ advert.title|striptags|slice(0, 15)|raw }}...
+
+          {% endif %}
+
+
+
+
+
+
+
+        <span class="badge badge-primary badge-pill ml-2">{{ advert.id }}</span>
+      </a>
+
+    </li>
+  {% endfor %}
+</ul>
+

@@ -1,0 +1,55 @@
+
+
+{% extends "OCPlatformBundle::layout.html.twig" %}
+
+{% block title %}
+    Accueil - {{ parent() }}
+{% endblock %}
+
+{% block ocplatform_body %}
+
+    {% for message in app.session.flashbag.get('info') %}
+        <div class="alert alert-info text-center">Message flash : {{ message }}</div>
+    {% endfor %}
+
+    <h2 class="text-muted">Annonces</h2>
+
+
+
+    <div class="list-group mb-5">
+
+        {% for advert in listAdverts %}
+
+            <a href="{{ path('oc_platform_view', {'id': advert.id}) }}"
+               class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">{{ advert.title }}</h5>
+                    <small>{{ advert.date|date('d/m/Y') }}</small>
+                </div>
+                <p class="mb-1">{{ advert.content }}</p>
+                <small>par {{ advert.author }}</small>
+            </a>
+
+        {% else %}
+            Il n'y a aucune annonce pour le moment
+        {% endfor %}
+
+    </div>
+
+{% if listAdverts %}
+    <!--Pagination -->
+    <nav aria-label="pagination example">
+        <ul class="pagination pagination-circle pg-blue mb-0">
+
+            {% for p in range(1, nbPages) %}
+                <li{% if p == page %} class=" page-item active" {% else %} class="page-item" {% endif %}>
+                    <a class="page-link" href="{{ path('oc_platform_home', {'page': p}) }}">{{ p }}</a>
+                </li>
+            {% endfor %}
+
+        </ul>
+    </nav>
+
+{% endif %}
+
+{% endblock %}

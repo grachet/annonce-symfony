@@ -1,0 +1,66 @@
+
+
+{% extends "OCCoreBundle::layout.html.twig" %}
+
+{% block title %}
+    Connexion  {{ parent() }}
+{% endblock %}
+
+
+{% block body %}
+
+    <div style="height: 100vh">
+        <div class="flex-center flex-column">
+
+            <section class="form-simple ">
+
+                <!--Form with header-->
+                <div class="card">
+
+                    <!--Header-->
+                    <div class="header pt-3 primary-color lighten-2 ">
+
+                        <div class="row d-flex align-content-center">
+                            <h3 class="text-white  mt-3 mb-4 pb-1 mx-5">      {% block subtitle %}
+                                {% endblock %}</h3>
+                        </div>
+
+
+
+                    </div>
+
+                    {% for type, messages in app.session.flashBag.all %}
+                        {% for message in messages %}
+                            <div class=" aler alert-{{ type }} text-center" role="alert">
+                                {{ message|trans({}, 'FOSUserBundle') }}
+                            </div>
+                        {% endfor %}
+                    {% endfor %}
+                    <!--Header-->
+
+                    <div class="card-body mx-4 mt-4">
+
+
+
+
+                        {% block fos_user_content %}
+                        {% endblock fos_user_content %}
+
+
+
+                    </div>
+
+                </div>
+
+
+
+            </section>
+
+
+        </div>
+
+
+    </div>
+
+
+{% endblock %}

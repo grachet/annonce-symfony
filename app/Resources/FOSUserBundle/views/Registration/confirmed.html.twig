@@ -1,0 +1,19 @@
+{% extends "@FOSUser/layout.html.twig" %}
+
+{% trans_default_domain 'FOSUserBundle' %}
+
+            {% block subtitle %}
+                Bienvenue
+            {% endblock %}
+
+{% block fos_user_content %}
+
+    <p>{{ 'registration.confirmed'|trans({'%username%': user.username}) }}</p>
+    {% if targetUrl %}
+    <p><a href="{{ targetUrl }}">{{ 'registration.back'|trans }}</a></p>
+    {% endif %}
+
+    <a href="{{ path('oc_platform_home') }}"> <button class="btn btn-primary  my-4">Voir les annonces</button> </a>
+
+
+{% endblock fos_user_content %}
