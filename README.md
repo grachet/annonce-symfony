@@ -1,4 +1,4 @@
-# Erobot
+# Job Board - Symfony
 
 Simple job board website in Symfony 3.4
 
