@@ -1,7 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12c3e378-54c1-45b5-9a01-bba22dcb9eab" name="Default" comment="" />
+    <list default="true" id="12c3e378-54c1-45b5-9a01-bba22dcb9eab" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/symfony.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/.htaccess" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/AppCache.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/check_email.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/confirmed.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/email.txt.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register_content.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login_content.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error404.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/autoload.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/bootstrap.php.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/config/config_dev.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/config/config_prod.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/config/config_test.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/config/parameters.yml.dist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/config/routing_dev.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/config/security.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/config/services.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/.gitkeep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/console" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/symfony_requirements" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/phpunit.xml.dist" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/.htaccess" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/CoreBundle/Controller/CoreController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/CoreBundle/OCCoreBundle.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/CoreBundle/Resources/config/routing.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/CoreBundle/Resources/public/css/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/CoreBundle/Resources/public/css/mdb.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/CoreBundle/Resources/public/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/CoreBundle/Resources/public/js/mdb.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/CoreBundle/Resources/views/Core/index.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/CoreBundle/Resources/views/layout.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Antispam/OCAntispam.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Bigbrother/MessageListener.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Bigbrother/MessageNotificator.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Controller/AdvertController.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/DataFixtures/ORM/LoadCategory.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/DataFixtures/ORM/LoadSkill.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/DependencyInjection/Configuration.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/DependencyInjection/OCPlatformExtension.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/DoctrineListener/ApplicationCreationListener.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Email/ApplicationMailer.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Entity/Advert.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Entity/AdvertSkill.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Entity/Application.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Entity/Category.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Entity/Image.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Entity/Skill.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Event/MessagePostEvent.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Event/PlatformEvents.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Form/AdvertEditType.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Form/AdvertType.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Form/CategoryType.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Form/CkeditorType.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Form/ImageType.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/OCPlatformBundle.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/ParamConverter/JsonParamConverter.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Purger/AdvertPurger.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Repository/AdvertRepository.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Repository/ApplicationRepository.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Repository/CategoryRepository.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/config/routing.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/config/services.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/public/css/main.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/public/css/platform.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/translations/messages.de.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/translations/messages.en.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/translations/messages.fr.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/views/Advert/add.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/views/Advert/delete.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/views/Advert/edit.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/views/Advert/form.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/views/Advert/index.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/views/Advert/menu.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/views/Advert/translation.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/views/Advert/view.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/views/layout.html.twig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Twig/AntispamExtension.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Validator/Antiflood.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Validator/AntifloodValidator.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/UserBundle/DataFixtures/ORM/LoadUser.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/UserBundle/DependencyInjection/OCUserExtension.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/UserBundle/Entity/User.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/UserBundle/OCUserBundle.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/UserBundle/Repository/UserRepository.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OC/UserBundle/Resources/config/services.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/var/logs/prod.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/.htaccess" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/app.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/app_dev.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/apple-touch-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/config.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/css/2f6a151.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/css/2f6a151_main_1.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/css/d8066df.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/css/d8066df_platform_1.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/php.ini" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/robots.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/img/1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/img/10.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/img/2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/img/3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/img/4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/img/5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/img/8.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/img/9.jpeg" afterPath="" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +158,7 @@
       <file leaf-file-name="form.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OC/PlatformBundle/Resources/views/Advert/form.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2921">
+            <state relative-caret-position="0">
               <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
               <folding />
             </state>
@@ -39,8 +168,18 @@
       <file leaf-file-name="AdvertController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OC/PlatformBundle/Controller/AdvertController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3841">
-              <caret line="177" column="13" lean-forward="false" selection-start-line="177" selection-start-column="13" selection-end-line="177" selection-end-column="13" />
+            <state relative-caret-position="239">
+              <caret line="165" column="26" lean-forward="false" selection-start-line="165" selection-start-column="26" selection-end-line="165" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="81" column="30" lean-forward="false" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -66,31 +205,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app_dev.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/app_dev.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="17" column="68" lean-forward="false" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="parameters.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            <state relative-caret-position="276">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.lock" pinned="false" current-in-tab="true">
+      <file leaf-file-name="composer.lock" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.lock">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+            <state relative-caret-position="254">
+              <caret line="768" column="51" lean-forward="false" selection-start-line="768" selection-start-column="51" selection-end-line="768" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base_js.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/base_js.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Configuration.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/OC/PlatformBundle/DependencyInjection/Configuration.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -99,28 +248,8 @@
       <file leaf-file-name="parameters.yml.dist" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="8" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1518">
-              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state relative-caret-position="207">
+              <caret line="9" column="58" lean-forward="false" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -142,6 +271,15 @@
       <find>{#.*$</find>
       <find>\n    \/\/ Si la page n\'existe pas\, on retourne une 404</find>
       <find>\s//.*</find>
+      <find>fos_user</find>
+      <find>fos</find>
+      <find>mailer_user</find>
+      <find>req</find>
+      <find>{#</find>
+      <find>oc_platform</find>
+      <find>opclass</find>
+      <find>oc</find>
+      <find>oc_</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -149,6 +287,9 @@
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -183,6 +324,9 @@
         <option value="$PROJECT_DIR$/src/OC/PlatformBundle/Controller/AdvertController.php" />
         <option value="$PROJECT_DIR$/src/OC/PlatformBundle/Purger/AdvertPurger.php" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/composer.lock" />
+        <option value="$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/base_js.html.twig" />
+        <option value="$PROJECT_DIR$/src/OC/PlatformBundle/DependencyInjection/Configuration.php" />
       </list>
     </option>
   </component>
@@ -251,8 +395,9 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="49" />
+    <option name="y" value="-8" />
     <option name="width" value="1920" />
     <option name="height" value="966" />
   </component>
@@ -277,8 +422,39 @@
         <subPane>
           <expand>
             <path>
-              <item name="annonce_symfony" type="b2602c69:ProjectViewProjectNode" />
-              <item name="annonce_symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="annonce-symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annonce-symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="annonce-symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annonce-symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="annonce-symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annonce-symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="annonce-symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annonce-symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="annonce-symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annonce-symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="var" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="annonce-symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annonce-symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="annonce-symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="annonce-symfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="composer" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -291,7 +467,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
@@ -334,33 +510,35 @@
       <workItem from="1530918500437" duration="2372000" />
       <workItem from="1530921604661" duration="1248000" />
       <workItem from="1530923878343" duration="418000" />
+      <workItem from="1531045417393" duration="237000" />
+      <workItem from="1531045686384" duration="2549000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51510000" />
+    <option name="totallyTimeSpent" value="54296000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="966" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37380192" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37899786" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33216375" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -377,21 +555,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/OC/PlatformBundle/Controller/AdvertController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OC/PlatformBundle/Form/ImageType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/OC/PlatformBundle/Form/AdvertType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -407,14 +570,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/app_dev.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="3" lean-forward="false" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/app_dev.php" />
     <entry file="file://$PROJECT_DIR$/src/OC/PlatformBundle/Beta/BetaHTMLAdder.php" />
     <entry file="file://$PROJECT_DIR$/src/OC/UserBundle/Resources/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -465,13 +621,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/ocplatform/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/ocplatform/css/main.css" />
     <entry file="file://$PROJECT_DIR$/src/OC/PlatformBundle/Resources/public/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -490,13 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="44" column="46" lean-forward="false" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -658,24 +801,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="8" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/65adf6dd-eda6-4ae0-aa3b-6e311d54d495/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/65adf6dd-eda6-4ae0-aa3b-6e311d54d495/console.sql" />
     <entry file="file://$PROJECT_DIR$/src/OC/PlatformBundle/Resources/views/Advert/form.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2921">
+        <state relative-caret-position="0">
           <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
           <folding />
         </state>
@@ -697,34 +826,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/app_dev.php" />
     <entry file="file://$PROJECT_DIR$/src/OC/PlatformBundle/Controller/AdvertController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3841">
-          <caret line="177" column="13" lean-forward="false" selection-start-line="177" selection-start-column="13" selection-end-line="177" selection-end-column="13" />
+        <state relative-caret-position="239">
+          <caret line="165" column="26" lean-forward="false" selection-start-line="165" selection-start-column="26" selection-end-line="165" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/app_dev.php">
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="17" column="68" lean-forward="false" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+        <state relative-caret-position="321">
+          <caret line="81" column="30" lean-forward="false" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="58" lean-forward="false" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        <state relative-caret-position="276">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        <state relative-caret-position="254">
+          <caret line="768" column="51" lean-forward="false" selection-start-line="768" selection-start-column="51" selection-end-line="768" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/base_js.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OC/PlatformBundle/DependencyInjection/Configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="42" />
           <folding />
         </state>
       </provider>
